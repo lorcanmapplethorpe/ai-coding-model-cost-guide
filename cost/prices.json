@@ -1,1 +1,43 @@
-{"gpt-6-sol":{"input":0.0000006,"output":0.000003,"cached":0.00000006,"source":"catalog checked 2026-10-07"},"gpt-5.4":{"input":0.00000075,"output":0.0000045,"cached":0.000000075,"source":"catalog checked 2026-10-07"},"claude-opus-5":{"input":0.000002,"output":0.00001,"cached":0.0000002,"source":"catalog checked 2026-10-07"},"deepseek-v4-pro":{"input":0.000000528,"output":0.000001584,"cached":0.0000000176,"source":"catalog checked 2026-10-07"}}
+{
+  "checked": "2026-10-07",
+  "unit": "USD per million tokens",
+  "source": "https://argolink.io/v1/models",
+  "models": {
+    "gpt-6-sol": {
+      "official": {"input": 2.0, "output": 10.0, "cached": 0.2, "cache_write": 2.5},
+      "effective": {"input": 0.6, "output": 3.0, "cached": 0.06, "cache_write": 0.75},
+      "long_context": {"threshold": 272000, "input_multiplier": 2.0, "output_multiplier": 1.5},
+      "source": "https://argolink.io/en/models/gpt-6-sol"
+    },
+    "gpt-5.4": {
+      "official": {"input": 2.5, "output": 15.0, "cached": 0.25},
+      "effective": {"input": 0.75, "output": 4.5, "cached": 0.075},
+      "long_context": {"threshold": 272000, "input_multiplier": 2.0, "output_multiplier": 1.5},
+      "source": "https://argolink.io/en/models/gpt-5-4"
+    },
+    "claude-opus-5": {
+      "official": {"input": 5.0, "output": 25.0, "cached": 0.5, "cache_write": 6.25},
+      "effective": {"input": 2.0, "output": 10.0, "cached": 0.2, "cache_write": 2.5},
+      "long_context": null,
+      "source": "https://argolink.io/en/models/claude-opus-5"
+    },
+    "claude-opus-5-5": {
+      "official": {"input": 4.0, "output": 20.0, "cached": 0.2, "cache_write": 5.0},
+      "effective": {"input": 1.6, "output": 8.0, "cached": 0.08, "cache_write": 2.0},
+      "long_context": null,
+      "source": "https://argolink.io/en/models/claude-opus-5-5"
+    },
+    "deepseek-v4-pro": {
+      "official": {"input": 0.66, "output": 1.98, "cached": 0.022},
+      "effective": {"input": 0.528, "output": 1.584, "cached": 0.0176, "cache_write": 0.0},
+      "long_context": null,
+      "source": "https://argolink.io/en/models/deepseek-v4-pro"
+    },
+    "deepseek-v4.1-flash": {
+      "official": {"input": 0.15, "output": 0.6, "cached": 0.003},
+      "effective": {"input": 0.12, "output": 0.48, "cached": 0.0024, "cache_write": 0.0},
+      "long_context": null,
+      "source": "https://argolink.io/en/models/deepseek-v4-1-flash"
+    }
+  }
+}
